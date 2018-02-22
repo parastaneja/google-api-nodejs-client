@@ -67,6 +67,7 @@
   ],
   "version": "26.0.1",
   "scripts": {
+    "start": "node app.js",
     "posttest": "npm run check && npm run license-check",
     "test": "npm run cover",
     "doc": "jsdoc -c jsdoc-conf.json",
